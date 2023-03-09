@@ -19,9 +19,9 @@ how to add new patterns
 
 Example pattern array:
    
-const uint32_t PROGMEM Muster [1][8] =
-{
+	const uint32_t PROGMEM Muster [1][8] =
 	{
+		{
 		(uint32_t)0b00000101010101010101010101010101,
 		(uint32_t)0b00000010101010101010101010101010,
 		(uint32_t)0b10000000000000000000000000000000,
@@ -30,5 +30,5 @@ const uint32_t PROGMEM Muster [1][8] =
 		(uint32_t)0,
 		(uint32_t)0,
 		(uint32_t)0
+		}
 	}
-}
